@@ -1,0 +1,86 @@
+import Vue from 'vue'
+import {
+  AddressEdit,
+  AddressList,
+  Badge,
+  Button,
+  Card,
+  Cell,
+  CellGroup,
+  Col,
+  Collapse,
+  CollapseItem,
+  Empty,
+  Field,
+  Form,
+  Grid,
+  GridItem,
+  Icon,
+  Image as VanImage,
+  Lazyload,
+  NavBar,
+  NoticeBar,
+  Notify,
+  NumberKeyboard,
+  PasswordInput,
+  Popover,
+  Popup,
+  PullRefresh,
+  Row,
+  Search,
+  Sidebar,
+  SidebarItem,
+  Sticky,
+  SubmitBar,
+  Swipe,
+  SwipeCell,
+  SwipeItem,
+  Tab,
+  Tabbar,
+  TabbarItem,
+  Tabs,
+  Tag,
+  Toast
+} from 'vant'
+
+Vue.use(Card)
+Vue.use(Collapse)
+Vue.use(CollapseItem)
+Vue.use(PasswordInput)
+Vue.use(NumberKeyboard)
+Vue.use(Popup)
+Vue.use(AddressEdit)
+Vue.use(AddressList)
+Vue.use(Notify)
+Vue.use(PullRefresh)
+Vue.use(Sticky)
+Vue.use(SubmitBar)
+Vue.use(Popover)
+Vue.use(Sidebar)
+Vue.use(SidebarItem)
+Vue.use(Empty)
+Vue.use(VanImage)
+Vue.use(CellGroup)
+Vue.use(Cell)
+Vue.use(Tab)
+Vue.use(Tabs)
+Vue.use(Toast)
+Vue.use(Button)
+Vue.use(Form)
+Vue.use(Field)
+Vue.use(Col)
+Vue.use(Row)
+Vue.use(NavBar)
+Vue.use(Search)
+Vue.use(Lazyload)
+Vue.use(Grid)
+Vue.use(GridItem)
+Vue.use(Badge)
+Vue.use(Swipe)
+Vue.use(SwipeItem)
+Vue.use(SwipeCell)
+Vue.use(Icon)
+Vue.use(Tabbar)
+Vue.use(TabbarItem)
+Vue.use(NoticeBar)
+Vue.use(Tag)
